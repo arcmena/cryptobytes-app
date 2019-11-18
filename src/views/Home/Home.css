@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 10%;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: #fafafa;
+    width: 300px;
+    height: auto;
+    border: 1px solid #10101030;
+    border-radius: 5px;
+    margin: 6px auto;
+}

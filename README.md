@@ -17,11 +17,10 @@ git clone https://github.com/arcmena/cryptobytes .
 ```
 It will clone the repository inside your project folder.
 
-In the terminal, go to your project folder and use yarn to iniciate webkit: 
-```
-yarn start
-```
-Access: ```http://localhost:3000/```. 
+In the terminal, go to your project folder and use yarn to iniciate webkit and install dependencies: 
+
+```npm install```      and     ```yarn start```     then Access: ```http://localhost:3000/```. 
+
 
 ## Usage
 

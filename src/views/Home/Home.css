@@ -1,17 +1,68 @@
-.container {
+.wrapper {
     display: flex;
     flex-direction: column;
-    margin: 12px 10%;
+    background-image: url('../../assets/fundo.jpg');
+    background-size: 100%;
 }
 
 .coin {
     display: flex;
     align-items: center;
-    padding: 6px 12px;
+    padding: 7px 12px;
     background-color: #fafafa;
     width: 300px;
     height: auto;
     border: 1px solid #10101030;
     border-radius: 5px;
-    margin: 6px auto;
+    margin: 10px auto;
+}
+
+#title{
+    width: 345px;
+    color: #fafafa;
+    font-size: 15pt;
+    border-top: 1px solid #10101030;
+    border-bottom: 1px solid #10101030;
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+    display: flex;
+    padding: 6px 12px;
+    background-color: #fafafa;
+    width: 400px;
+    height: auto;
+    border: 1px solid #10101030;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+.searchbox input{
+    border: none;
+    width: 360px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #fafafa;
+    transition: all 0.2s;
+}
+
+.searchbox input:hover{
+    background-color: #e0e0e0;
+}
+
+.searchbox button{
+    background-color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.searchbox button:hover{
+    background: #d8d8d8;
+}
+
+#search_icon{
+    height: 30px;
+    margin: 0px 10px 0px 10px;
 }

@@ -1,8 +1,14 @@
 .wrapper {
+    height: 80vh;
     display: flex;
     flex-direction: column;
     background-image: url('../../assets/fundo.jpg');
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: initial;
+}
+
+.main_cointainer{
+    height: 100vh;
 }
 
 .coin {
@@ -14,7 +20,7 @@
     height: auto;
     border: 1px solid #10101030;
     border-radius: 5px;
-    margin: 10px auto;
+    margin: auto;
 }
 
 #title{
@@ -35,7 +41,7 @@
     height: auto;
     border: 1px solid #10101030;
     border-radius: 5px;
-    margin: 15px auto;
+    margin: 5px auto;
 }
 
 .searchbox input{

@@ -16,11 +16,23 @@
     align-items: center;
     padding: 7px 12px;
     background-color: #fafafa;
-    width: 300px;
+    width: 400px;
     height: auto;
     border: 1px solid #10101030;
     border-radius: 5px;
     margin: auto;
+}
+
+.coin_search{
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+    background-color: #fafafa;
+    width: 400px;
+    height: auto;
+    margin: 12px auto 12px auto;
+    border: 1px solid #10101030;
+    border-radius: 5px;
 }
 
 #title{

@@ -63,11 +63,11 @@ export default class Home extends React.Component {
                     </div>
                     {this.state.topTen.map((coin, i) => (
                         <div key={i} style={{display: this.state.active ? 'none' : 'block'}} className="coin">
-                            <p>{`${i + 1} - ${coin.name} - Price (USD): ${parseFloat(coin.price_usd).toFixed(2)}`}</p>
+                            <p>{`${i + 1} - ${coin.name} - Price (USD): ${parseFloat(coin.price_usd).toFixed(5)} - Bitcoin ${(this.state.coin.price_btc)}`}</p>
                         </div>
                     ))}
-                    <div style={{display: this.state.active1 ? 'none' : 'block'}} className="coin">
-                        <p>{`Name: ${this.state.coin.name} - Price (USD): ${parseFloat(this.state.coin.price_usd).toFixed(2)}`}</p>
+                    <div style={{display: this.state.active1 ? 'none' : 'block'}} className="coin_search">
+                        <p>{`Name: ${this.state.coin.name} - Price (USD): ${parseFloat(this.state.coin.price_usd).toFixed(5)} - Bitcoin ${(this.state.coin.price_btc)}`}</p>
                     </div>
                     <Footer/>
                 </div>
